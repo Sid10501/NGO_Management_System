@@ -1,0 +1,171 @@
+{
+    "databaseName": "My database",
+    "organizations": [
+        {
+            "organizationMinHours": 10,
+            "organizationName": "Audiocation",
+            "organizationEvents": [],
+            "organizationCity": "Vancouver",
+            "organizationPurpose": "ANIMALS",
+            "organizationApplications": [],
+            "organizationFund": 2500,
+            "organizationMembers": [{
+                "volunteerName": "DefaultVolunteer",
+                "volunteerCity": "Vancouver",
+                "isExec": true,
+                "volunteerAge": 25,
+                "volunteerNumEvents": 0,
+                "volunteerHoursWorked": 50,
+                "volunteerStatus": "ACCEPTED",
+                "volunteerMaxHours": 100
+            }]
+        },
+        {
+            "organizationMinHours": 8,
+            "organizationName": "Hope",
+            "organizationEvents": [],
+            "organizationCity": "Tokyo",
+            "organizationPurpose": "ANIMALS",
+            "organizationApplications": [],
+            "organizationFund": 3400,
+            "organizationMembers": [{
+                "volunteerName": "DefaultVolunteer",
+                "volunteerCity": "Tokyo",
+                "isExec": true,
+                "volunteerAge": 25,
+                "volunteerNumEvents": 0,
+                "volunteerHoursWorked": 50,
+                "volunteerStatus": "ACCEPTED",
+                "volunteerMaxHours": 100
+            }]
+        },
+        {
+            "organizationMinHours": 12,
+            "organizationName": "Healthy Life",
+            "organizationEvents": [],
+            "organizationCity": "Delhi",
+            "organizationPurpose": "HEALTH",
+            "organizationApplications": [],
+            "organizationFund": 2000,
+            "organizationMembers": [{
+                "volunteerName": "DefaultHealthy LifeVolunteer",
+                "volunteerCity": "Delhi",
+                "isExec": true,
+                "volunteerAge": 25,
+                "volunteerNumEvents": 0,
+                "volunteerHoursWorked": 50,
+                "volunteerStatus": "ACCEPTED",
+                "volunteerMaxHours": 100
+            }]
+        }
+    ],
+    "founders": [
+        {
+            "founderOrganization": {
+                "organizationMinHours": 10,
+                "organizationName": "Audiocation",
+                "organizationEvents": [],
+                "organizationCity": "Vancouver",
+                "organizationPurpose": "ANIMALS",
+                "organizationApplications": [],
+                "organizationFund": 2500,
+                "organizationMembers": [{
+                    "volunteerName": "DefaultVolunteer",
+                    "volunteerCity": "Vancouver",
+                    "isExec": true,
+                    "volunteerAge": 25,
+                    "volunteerNumEvents": 0,
+                    "volunteerHoursWorked": 50,
+                    "volunteerStatus": "ACCEPTED",
+                    "volunteerMaxHours": 100
+                }]
+            },
+            "founderCity": "Vancouver",
+            "founderInvestment": 2500,
+            "founderName": "Sidharth",
+            "founderAge": 21
+        },
+        {
+            "founderOrganization": {
+                "organizationMinHours": 8,
+                "organizationName": "Hope",
+                "organizationEvents": [],
+                "organizationCity": "Tokyo",
+                "organizationPurpose": "ANIMALS",
+                "organizationApplications": [],
+                "organizationFund": 3400,
+                "organizationMembers": [{
+                    "volunteerName": "DefaultVolunteer",
+                    "volunteerCity": "Tokyo",
+                    "isExec": true,
+                    "volunteerAge": 25,
+                    "volunteerNumEvents": 0,
+                    "volunteerHoursWorked": 50,
+                    "volunteerStatus": "ACCEPTED",
+                    "volunteerMaxHours": 100
+                }]
+            },
+            "founderCity": "Tokyo",
+            "founderInvestment": 3400,
+            "founderName": "Jake",
+            "founderAge": 25
+        },
+        {
+            "founderOrganization": {
+                "organizationMinHours": 12,
+                "organizationName": "Healthy Life",
+                "organizationEvents": [],
+                "organizationCity": "Delhi",
+                "organizationPurpose": "HEALTH",
+                "organizationApplications": [],
+                "organizationFund": 2000,
+                "organizationMembers": [{
+                    "volunteerName": "DefaultHealthy LifeVolunteer",
+                    "volunteerCity": "Delhi",
+                    "isExec": true,
+                    "volunteerAge": 25,
+                    "volunteerNumEvents": 0,
+                    "volunteerHoursWorked": 50,
+                    "volunteerStatus": "ACCEPTED",
+                    "volunteerMaxHours": 100
+                }]
+            },
+            "founderCity": "Delhi",
+            "founderInvestment": 2000,
+            "founderName": "Henry",
+            "founderAge": 22
+        }
+    ],
+    "volunteers": [
+        {
+            "volunteerName": "DefaultVolunteer",
+            "volunteerCity": "Vancouver",
+            "isExec": true,
+            "volunteerAge": 25,
+            "volunteerNumEvents": 0,
+            "volunteerHoursWorked": 50,
+            "volunteerStatus": "ACCEPTED",
+            "volunteerMaxHours": 100
+        },
+        {
+            "volunteerName": "DefaultVolunteer",
+            "volunteerCity": "Tokyo",
+            "isExec": true,
+            "volunteerAge": 25,
+            "volunteerNumEvents": 0,
+            "volunteerHoursWorked": 50,
+            "volunteerStatus": "ACCEPTED",
+            "volunteerMaxHours": 100
+        },
+        {
+            "volunteerName": "DefaultHealthy LifeVolunteer",
+            "volunteerCity": "Delhi",
+            "isExec": true,
+            "volunteerAge": 25,
+            "volunteerNumEvents": 0,
+            "volunteerHoursWorked": 50,
+            "volunteerStatus": "ACCEPTED",
+            "volunteerMaxHours": 100
+        }
+    ]
+}

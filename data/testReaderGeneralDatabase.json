@@ -1,0 +1,481 @@
+{
+  "databaseName": "My Database",
+  "organizations": [
+    {
+      "organizationMinHours": 10,
+      "organizationName": "Hope",
+      "organizationEvents": [],
+      "organizationCity": "Vancouver",
+      "organizationPurpose": "EDUCATION",
+      "organizationApplications": [
+        {
+          "volunteerName": "James",
+          "volunteerCity": "Vancouver",
+          "isExec": false,
+          "volunteerAge": 19,
+          "volunteerNumEvents": 0,
+          "volunteerHoursWorked": 0,
+          "volunteerStatus": "PENDING",
+          "volunteerMaxHours": 35
+        }
+      ],
+      "organizationFund": 2500,
+      "organizationMembers": [
+        {
+          "volunteerName": "DefaultVolunteer",
+          "volunteerCity": "City",
+          "isExec": true,
+          "volunteerAge": 25,
+          "volunteerNumEvents": 0,
+          "volunteerHoursWorked": 50,
+          "volunteerStatus": "ACCEPTED",
+          "volunteerMaxHours": 100
+        }
+      ]
+    },
+    {
+      "organizationMinHours": 6,
+      "organizationName": "Healthy Life",
+      "organizationEvents": [
+        {
+          "eventDuration": 2,
+          "eventNumVolunteers": 5,
+          "eventName": "Thanksgiving",
+          "eventVolunteers": [
+            {
+              "volunteerName": "Frank",
+              "volunteerCity": "Alberta",
+              "isExec": false,
+              "volunteerAge": 24,
+              "volunteerNumEvents": 1,
+              "volunteerHoursWorked": 2,
+              "volunteerStatus": "ACCEPTED",
+              "volunteerMaxHours": 45
+            }
+          ],
+          "eventExecutive": {
+            "volunteerName": "DefaultVolunteer",
+            "volunteerCity": "City",
+            "isExec": true,
+            "volunteerAge": 25,
+            "volunteerNumEvents": 0,
+            "volunteerHoursWorked": 50,
+            "volunteerStatus": "ACCEPTED",
+            "volunteerMaxHours": 100
+          }
+        }
+      ],
+      "organizationCity": "Alberta",
+      "organizationPurpose": "HEALTH",
+      "organizationApplications": [],
+      "organizationFund": 3200,
+      "organizationMembers": [
+        {
+          "volunteerName": "DefaultVolunteer",
+          "volunteerCity": "City",
+          "isExec": true,
+          "volunteerAge": 25,
+          "volunteerNumEvents": 0,
+          "volunteerHoursWorked": 50,
+          "volunteerStatus": "ACCEPTED",
+          "volunteerMaxHours": 100
+        },
+        {
+          "volunteerName": "Frank",
+          "volunteerCity": "Alberta",
+          "isExec": false,
+          "volunteerAge": 24,
+          "volunteerNumEvents": 1,
+          "volunteerHoursWorked": 2,
+          "volunteerStatus": "ACCEPTED",
+          "volunteerMaxHours": 45
+        }
+      ]
+    },
+    {
+      "organizationMinHours": 14,
+      "organizationName": "Help Animals",
+      "organizationEvents": [
+        {
+          "eventDuration": 5,
+          "eventNumVolunteers": 8,
+          "eventName": "Christmas",
+          "eventVolunteers": [
+            {
+              "volunteerName": "Stacy",
+              "volunteerCity": "Paris",
+              "isExec": false,
+              "volunteerAge": 25,
+              "volunteerNumEvents": 1,
+              "volunteerHoursWorked": 5,
+              "volunteerStatus": "ACCEPTED",
+              "volunteerMaxHours": 32
+            }
+          ],
+          "eventExecutive": {
+            "volunteerName": "DefaultVolunteer",
+            "volunteerCity": "City",
+            "isExec": true,
+            "volunteerAge": 25,
+            "volunteerNumEvents": 0,
+            "volunteerHoursWorked": 50,
+            "volunteerStatus": "ACCEPTED",
+            "volunteerMaxHours": 100
+          }
+        },
+        {
+          "eventDuration": 8,
+          "eventNumVolunteers": 4,
+          "eventName": "Diwali",
+          "eventVolunteers": [
+            {
+              "volunteerName": "Stacy",
+              "volunteerCity": "Paris",
+              "isExec": false,
+              "volunteerAge": 25,
+              "volunteerNumEvents": 1,
+              "volunteerHoursWorked": 5,
+              "volunteerStatus": "ACCEPTED",
+              "volunteerMaxHours": 32
+            },
+            {
+              "volunteerName": "Gavin",
+              "volunteerCity": "Paris",
+              "isExec": false,
+              "volunteerAge": 28,
+              "volunteerNumEvents": 2,
+              "volunteerHoursWorked": 13,
+              "volunteerStatus": "ACCEPTED",
+              "volunteerMaxHours": 25
+            }
+          ],
+          "eventExecutive": {
+            "volunteerName": "DefaultVolunteer",
+            "volunteerCity": "City",
+            "isExec": true,
+            "volunteerAge": 25,
+            "volunteerNumEvents": 0,
+            "volunteerHoursWorked": 50,
+            "volunteerStatus": "ACCEPTED",
+            "volunteerMaxHours": 100
+          }
+        }
+      ],
+      "organizationCity": "Paris",
+      "organizationPurpose": "ANIMALS",
+      "organizationApplications": [],
+      "organizationFund": 4700,
+      "organizationMembers": [
+        {
+          "volunteerName": "DefaultVolunteer",
+          "volunteerCity": "City",
+          "isExec": true,
+          "volunteerAge": 25,
+          "volunteerNumEvents": 0,
+          "volunteerHoursWorked": 50,
+          "volunteerStatus": "ACCEPTED",
+          "volunteerMaxHours": 100
+        },
+        {
+          "volunteerName": "Stacy",
+          "volunteerCity": "Paris",
+          "isExec": false,
+          "volunteerAge": 25,
+          "volunteerNumEvents": 1,
+          "volunteerHoursWorked": 5,
+          "volunteerStatus": "ACCEPTED",
+          "volunteerMaxHours": 32
+        },
+        {
+          "volunteerName": "Gavin",
+          "volunteerCity": "Paris",
+          "isExec": false,
+          "volunteerAge": 28,
+          "volunteerNumEvents": 2,
+          "volunteerHoursWorked": 13,
+          "volunteerStatus": "ACCEPTED",
+          "volunteerMaxHours": 25
+        }
+      ]
+    }
+  ],
+  "founders": [
+    {
+      "founderOrganization": {
+        "organizationMinHours": 10,
+        "organizationName": "Hope",
+        "organizationEvents": [],
+        "organizationCity": "Vancouver",
+        "organizationPurpose": "EDUCATION",
+        "organizationApplications": [
+          {
+            "volunteerName": "James",
+            "volunteerCity": "Vancouver",
+            "isExec": false,
+            "volunteerAge": 19,
+            "volunteerNumEvents": 0,
+            "volunteerHoursWorked": 0,
+            "volunteerStatus": "PENDING",
+            "volunteerMaxHours": 35
+          }
+        ],
+        "organizationFund": 2500,
+        "organizationMembers": [
+          {
+            "volunteerName": "DefaultVolunteer",
+            "volunteerCity": "City",
+            "isExec": true,
+            "volunteerAge": 25,
+            "volunteerNumEvents": 0,
+            "volunteerHoursWorked": 50,
+            "volunteerStatus": "ACCEPTED",
+            "volunteerMaxHours": 100
+          }
+        ]
+      },
+      "founderCity": "Vancouver",
+      "founderInvestment": 2500,
+      "founderName": "Jill",
+      "founderAge": 21
+    },
+    {
+      "founderOrganization": {
+        "organizationMinHours": 6,
+        "organizationName": "Healthy Life",
+        "organizationEvents": [
+          {
+            "eventDuration": 2,
+            "eventNumVolunteers": 5,
+            "eventName": "Thanksgiving",
+            "eventVolunteers": [
+              {
+                "volunteerName": "Frank",
+                "volunteerCity": "Alberta",
+                "isExec": false,
+                "volunteerAge": 24,
+                "volunteerNumEvents": 1,
+                "volunteerHoursWorked": 2,
+                "volunteerStatus": "ACCEPTED",
+                "volunteerMaxHours": 45
+              }
+            ],
+            "eventExecutive": {
+              "volunteerName": "DefaultVolunteer",
+              "volunteerCity": "City",
+              "isExec": true,
+              "volunteerAge": 25,
+              "volunteerNumEvents": 0,
+              "volunteerHoursWorked": 50,
+              "volunteerStatus": "ACCEPTED",
+              "volunteerMaxHours": 100
+            }
+          }
+        ],
+        "organizationCity": "Alberta",
+        "organizationPurpose": "HEALTH",
+        "organizationApplications": [],
+        "organizationFund": 3200,
+        "organizationMembers": [
+          {
+            "volunteerName": "DefaultVolunteer",
+            "volunteerCity": "City",
+            "isExec": true,
+            "volunteerAge": 25,
+            "volunteerNumEvents": 0,
+            "volunteerHoursWorked": 50,
+            "volunteerStatus": "ACCEPTED",
+            "volunteerMaxHours": 100
+          },
+          {
+            "volunteerName": "Frank",
+            "volunteerCity": "Alberta",
+            "isExec": false,
+            "volunteerAge": 24,
+            "volunteerNumEvents": 1,
+            "volunteerHoursWorked": 2,
+            "volunteerStatus": "ACCEPTED",
+            "volunteerMaxHours": 45
+          }
+        ]
+      },
+      "founderCity": "Alberta",
+      "founderInvestment": 3200,
+      "founderName": "Ruby",
+      "founderAge": 27
+    },
+    {
+      "founderOrganization": {
+        "organizationMinHours": 14,
+        "organizationName": "Help Animals",
+        "organizationEvents": [
+          {
+            "eventDuration": 5,
+            "eventNumVolunteers": 8,
+            "eventName": "Christmas",
+            "eventVolunteers": [
+              {
+                "volunteerName": "Stacy",
+                "volunteerCity": "Paris",
+                "isExec": false,
+                "volunteerAge": 25,
+                "volunteerNumEvents": 1,
+                "volunteerHoursWorked": 5,
+                "volunteerStatus": "ACCEPTED",
+                "volunteerMaxHours": 32
+              }
+            ],
+            "eventExecutive": {
+              "volunteerName": "DefaultVolunteer",
+              "volunteerCity": "City",
+              "isExec": true,
+              "volunteerAge": 25,
+              "volunteerNumEvents": 0,
+              "volunteerHoursWorked": 50,
+              "volunteerStatus": "ACCEPTED",
+              "volunteerMaxHours": 100
+            }
+          },
+          {
+            "eventDuration": 8,
+            "eventNumVolunteers": 4,
+            "eventName": "Diwali",
+            "eventVolunteers": [
+              {
+                "volunteerName": "Stacy",
+                "volunteerCity": "Paris",
+                "isExec": false,
+                "volunteerAge": 25,
+                "volunteerNumEvents": 1,
+                "volunteerHoursWorked": 5,
+                "volunteerStatus": "ACCEPTED",
+                "volunteerMaxHours": 32
+              },
+              {
+                "volunteerName": "Gavin",
+                "volunteerCity": "Paris",
+                "isExec": false,
+                "volunteerAge": 28,
+                "volunteerNumEvents": 2,
+                "volunteerHoursWorked": 13,
+                "volunteerStatus": "ACCEPTED",
+                "volunteerMaxHours": 25
+              }
+            ],
+            "eventExecutive": {
+              "volunteerName": "DefaultVolunteer",
+              "volunteerCity": "City",
+              "isExec": true,
+              "volunteerAge": 25,
+              "volunteerNumEvents": 0,
+              "volunteerHoursWorked": 50,
+              "volunteerStatus": "ACCEPTED",
+              "volunteerMaxHours": 100
+            }
+          }
+        ],
+        "organizationCity": "Paris",
+        "organizationPurpose": "ANIMALS",
+        "organizationApplications": [],
+        "organizationFund": 4700,
+        "organizationMembers": [
+          {
+            "volunteerName": "DefaultVolunteer",
+            "volunteerCity": "City",
+            "isExec": true,
+            "volunteerAge": 25,
+            "volunteerNumEvents": 0,
+            "volunteerHoursWorked": 50,
+            "volunteerStatus": "ACCEPTED",
+            "volunteerMaxHours": 100
+          },
+          {
+            "volunteerName": "Stacy",
+            "volunteerCity": "Paris",
+            "isExec": false,
+            "volunteerAge": 25,
+            "volunteerNumEvents": 1,
+            "volunteerHoursWorked": 5,
+            "volunteerStatus": "ACCEPTED",
+            "volunteerMaxHours": 32
+          },
+          {
+            "volunteerName": "Gavin",
+            "volunteerCity": "Paris",
+            "isExec": false,
+            "volunteerAge": 28,
+            "volunteerNumEvents": 2,
+            "volunteerHoursWorked": 13,
+            "volunteerStatus": "ACCEPTED",
+            "volunteerMaxHours": 25
+          }
+        ]
+      },
+      "founderCity": "Paris",
+      "founderInvestment": 4700,
+      "founderName": "Alex",
+      "founderAge": 26
+    }
+  ],
+  "volunteers": [
+    {
+      "volunteerName": "DefaultVolunteer",
+      "volunteerCity": "City",
+      "isExec": true,
+      "volunteerAge": 25,
+      "volunteerNumEvents": 0,
+      "volunteerHoursWorked": 50,
+      "volunteerStatus": "ACCEPTED",
+      "volunteerMaxHours": 100
+    },
+    {
+      "volunteerName": "Asher",
+      "volunteerCity": "Vancouver",
+      "isExec": false,
+      "volunteerAge": 21,
+      "volunteerNumEvents": 0,
+      "volunteerHoursWorked": 0,
+      "volunteerStatus": "NA",
+      "volunteerMaxHours": 24
+    },
+    {
+      "volunteerName": "James",
+      "volunteerCity": "Vancouver",
+      "isExec": false,
+      "volunteerAge": 19,
+      "volunteerNumEvents": 0,
+      "volunteerHoursWorked": 0,
+      "volunteerStatus": "PENDING",
+      "volunteerMaxHours": 35
+    },
+    {
+      "volunteerName": "Frank",
+      "volunteerCity": "Alberta",
+      "isExec": false,
+      "volunteerAge": 24,
+      "volunteerNumEvents": 1,
+      "volunteerHoursWorked": 2,
+      "volunteerStatus": "ACCEPTED",
+      "volunteerMaxHours": 45
+    },
+    {
+      "volunteerName": "Stacy",
+      "volunteerCity": "Paris",
+      "isExec": false,
+      "volunteerAge": 25,
+      "volunteerNumEvents": 1,
+      "volunteerHoursWorked": 5,
+      "volunteerStatus": "ACCEPTED",
+      "volunteerMaxHours": 32
+    },
+    {
+      "volunteerName": "Gavin",
+      "volunteerCity": "Paris",
+      "isExec": false,
+      "volunteerAge": 28,
+      "volunteerNumEvents": 2,
+      "volunteerHoursWorked": 13,
+      "volunteerStatus": "ACCEPTED",
+      "volunteerMaxHours": 25
+    }
+  ]
+}

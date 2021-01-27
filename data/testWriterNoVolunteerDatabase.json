@@ -1,0 +1,87 @@
+{
+    "databaseName": "My Database",
+    "organizations": [{
+        "organizationMinHours": 10,
+        "organizationName": "Hope",
+        "organizationEvents": [{
+            "eventDuration": 15,
+            "eventNumVolunteers": 10,
+            "eventName": "Thanksgiving",
+            "eventVolunteers": [],
+            "eventExecutive": {
+                "volunteerName": "DefaultVolunteer",
+                "volunteerCity": "City",
+                "isExec": true,
+                "volunteerAge": 25,
+                "volunteerNumEvents": 0,
+                "volunteerHoursWorked": 50,
+                "volunteerStatus": "ACCEPTED",
+                "volunteerMaxHours": 100
+            }
+        }],
+        "organizationCity": "Vancouver",
+        "organizationPurpose": "EDUCATION",
+        "organizationApplications": [],
+        "organizationFund": 2500,
+        "organizationMembers": [{
+            "volunteerName": "DefaultVolunteer",
+            "volunteerCity": "City",
+            "isExec": true,
+            "volunteerAge": 25,
+            "volunteerNumEvents": 0,
+            "volunteerHoursWorked": 50,
+            "volunteerStatus": "ACCEPTED",
+            "volunteerMaxHours": 100
+        }]
+    }],
+    "founders": [{
+        "founderOrganization": {
+            "organizationMinHours": 10,
+            "organizationName": "Hope",
+            "organizationEvents": [{
+                "eventDuration": 15,
+                "eventNumVolunteers": 10,
+                "eventName": "Thanksgiving",
+                "eventVolunteers": [],
+                "eventExecutive": {
+                    "volunteerName": "DefaultVolunteer",
+                    "volunteerCity": "City",
+                    "isExec": true,
+                    "volunteerAge": 25,
+                    "volunteerNumEvents": 0,
+                    "volunteerHoursWorked": 50,
+                    "volunteerStatus": "ACCEPTED",
+                    "volunteerMaxHours": 100
+                }
+            }],
+            "organizationCity": "Vancouver",
+            "organizationPurpose": "EDUCATION",
+            "organizationApplications": [],
+            "organizationFund": 2500,
+            "organizationMembers": [{
+                "volunteerName": "DefaultVolunteer",
+                "volunteerCity": "City",
+                "isExec": true,
+                "volunteerAge": 25,
+                "volunteerNumEvents": 0,
+                "volunteerHoursWorked": 50,
+                "volunteerStatus": "ACCEPTED",
+                "volunteerMaxHours": 100
+            }]
+        },
+        "founderCity": "Vancouver",
+        "founderInvestment": 2500,
+        "founderName": "Sidharth",
+        "founderAge": 19
+    }],
+    "volunteers": [{
+        "volunteerName": "DefaultVolunteer",
+        "volunteerCity": "City",
+        "isExec": true,
+        "volunteerAge": 25,
+        "volunteerNumEvents": 0,
+        "volunteerHoursWorked": 50,
+        "volunteerStatus": "ACCEPTED",
+        "volunteerMaxHours": 100
+    }]
+}

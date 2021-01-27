@@ -1,0 +1,25 @@
+{
+  "databaseName": "My Database",
+  "organizations": [],
+  "founders": [],
+  "volunteers": [{
+    "volunteerName": "Billy",
+    "volunteerCity": "Egypt",
+    "isExec": false,
+    "volunteerAge": 24,
+    "volunteerNumEvents": 0,
+    "volunteerHoursWorked": 0,
+    "volunteerStatus": "NA",
+    "volunteerMaxHours": 24
+  },
+    {
+      "volunteerName": "Charlie",
+      "volunteerCity": "Vancouver",
+      "isExec": false,
+      "volunteerAge": 18,
+      "volunteerNumEvents": 0,
+      "volunteerHoursWorked": 0,
+      "volunteerStatus": "NA",
+      "volunteerMaxHours": 35
+    }]
+}
